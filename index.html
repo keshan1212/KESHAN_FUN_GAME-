@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#101820">
+
+    <title>KESHAN FUN GAME</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="game-container">
+
+        <header class="header">
+            <h1>🎮 KESHAN FUN GAME</h1>
+            <p>PLAY • ENJOY • WIN</p>
+        </header>
+
+        <section class="stats">
+
+            <div class="stat-box">
+                <span>LEVEL</span>
+                <h2 id="level">1</h2>
+            </div>
+
+            <div class="stat-box">
+                <span>🪙 COINS</span>
+                <h2 id="coins">0</h2>
+            </div>
+
+        </section>
+
+        <main class="game-area">
+
+            <h2 id="level-title">LEVEL 1</h2>
+
+            <div id="game-board"></div>
+
+            <p id="message">
+                SOLVE THE ARROW PUZZLE!
+            </p>
+
+        </main>
+
+        <section class="controls">
+
+            <button id="restart">
+                ↻ RESTART
+            </button>
+
+            <button id="next" disabled>
+                NEXT LEVEL ➜
+            </button>
+
+        </section>
+
+        <section class="reward-area">
+
+            <h3>🎁 FREE REWARD</h3>
+
+            <button id="reward-btn">
+                WATCH AD FOR BONUS COINS
+            </button>
+
+        </section>
+
+        <!-- AdMob Banner Area -->
+        <div id="banner-ad"></div>
+
+        <footer>
+            <p>KESHAN FUN GAME</p>
+            <p>100 LEVELS • 100 CHALLENGES</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
