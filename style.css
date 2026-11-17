@@ -1,0 +1,162 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #080d16;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.game-container {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.header {
+    padding: 25px 10px;
+    background: linear-gradient(135deg, #111d35, #172b48);
+    border: 1px solid #00d9ff;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #007bff55;
+}
+
+.header h1 {
+    font-size: 25px;
+    color: #00eaff;
+    text-shadow: 0 0 12px #00bfff;
+}
+
+.header p {
+    margin-top: 10px;
+    color: #b9c8dc;
+    letter-spacing: 3px;
+    font-size: 12px;
+}
+
+.stats {
+    display: flex;
+    gap: 12px;
+    margin: 20px 0;
+}
+
+.stat-box {
+    flex: 1;
+    padding: 15px;
+    background: #121d2e;
+    border: 1px solid #00c8ff;
+    border-radius: 12px;
+}
+
+.stat-box span {
+    color: #00eaff;
+    font-size: 13px;
+}
+
+.stat-box h2 {
+    margin-top: 8px;
+    font-size: 25px;
+}
+
+.game-area {
+    padding: 20px;
+    background: #111a29;
+    border: 1px solid #334b6b;
+    border-radius: 15px;
+    min-height: 300px;
+}
+
+.game-area h2 {
+    color: #00eaff;
+    margin-bottom: 20px;
+}
+
+#game-board {
+    width: 100%;
+    min-height: 200px;
+    display: grid;
+    gap: 5px;
+    justify-content: center;
+    align-content: center;
+}
+
+#message {
+    margin-top: 20px;
+    color: #a8c5e8;
+}
+
+.controls {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+button {
+    flex: 1;
+    padding: 14px 8px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #007bff, #00d9ff);
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:disabled {
+    background: #394352;
+    color: #a0a8b3;
+    cursor: not-allowed;
+}
+
+button:active:not(:disabled) {
+    transform: scale(0.96);
+}
+
+.reward-area {
+    background: #152238;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #ffc400;
+}
+
+.reward-area h3 {
+    color: #ffd43b;
+    margin-bottom: 15px;
+}
+
+#reward-btn {
+    width: 100%;
+    background: linear-gradient(135deg, #d68a00, #ffcc00);
+    color: #111;
+}
+
+#banner-ad {
+    min-height: 0;
+    margin-top: 15px;
+}
+
+footer {
+    margin: 25px 0;
+    color: #8294aa;
+    font-size: 12px;
+    line-height: 2;
+}
+
+@media (max-width: 360px) {
+    .header h1 {
+        font-size: 20px;
+    }
+
+    button {
+        font-size: 11px;
+    }
+}
