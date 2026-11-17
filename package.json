@@ -1,0 +1,17 @@
+
+{
+  "name": "keshan-fun-game",
+  "version": "1.0.0",
+  "description": "KESHAN FUN GAME - 100 Arrow Puzzle Levels",
+  "main": "index.js",
+  "scripts": {
+    "build": "cordova build android --release"
+  },
+  "keywords": [
+    "keshan",
+    "fun-game",
+    "arrow-puzzle"
+  ],
+  "author": "KESHAN",
+  "license": "MIT"
+}
